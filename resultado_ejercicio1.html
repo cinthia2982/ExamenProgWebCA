@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Resultado Ejercicio 1</title>
+</head>
+<body>
+    <h1>Resultado Ejercicio 1</h1>
+    <p>{{ mensaje }}</p>
+    <p>Nombre del cliente: {{ nombre }}</p>
+    <p>Total sin descuentos: ${{ total_sin_descuento }}</p>
+    <p>El descuento es: ${{ descuento }}</p>
+    <p>El total a pagar es de ${{ total_con_descuento }}</p>
+</body>
+</html>
+
+
+

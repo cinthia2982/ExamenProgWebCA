@@ -1,0 +1,31 @@
+/* Puedes personalizar el estilo aquí según tus preferencias */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #hhh;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
